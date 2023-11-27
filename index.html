@@ -1,0 +1,25 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="icon" href="data:">
+<title>気仙沼 観光マップ</title>
+</head><body>
+<h1>気仙沼 観光マップ</h1>
+<script type="module" src="https://code4fukui.github.io/csv-map/csv-map.js"></script>
+<csv-map src=./20220701_kankou_shisetsu.csv></csv-map>
+
+<script type="module" src="https://code4sabae.github.io/js/csv-viewer.js"></script>
+<csv-viewer src=./20220701_kankou_shisetsu.csv></csv-viewer>
+
+<hr>
+<a href=https://www.kesennuma.miyagi.jp/sec/s021/010/020/130/20200218174617.html#sightseeing>気仙沼市オープンデータライブラリ - 気仙沼市役所</a><br>
+
+
+<style>
+csv-viewer > div {
+  overflow: scroll;
+}
+csv-viewer th {
+  white-space: nowrap;
+}
+csv-viewer th:nth-child(19) {
+  width: 50em;
+}
+</style>
