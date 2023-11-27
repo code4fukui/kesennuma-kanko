@@ -16,10 +16,20 @@
 csv-viewer > div {
   overflow: scroll;
 }
+csv-viewer table {
+  border-collapse: collapse;
+}
+csv-viewer th, csv-viewer td {
+  border: 1px solid black;
+  padding: .2em;
+}
 csv-viewer th {
   white-space: nowrap;
 }
+csv-viewer th:nth-child(18), csv-viewer th:nth-child(17) {
+  min-width: 20em;
+}
 csv-viewer th:nth-child(19) {
-  width: 50em;
+  min-width: 30em;
 }
 </style>
