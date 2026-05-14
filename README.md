@@ -6,7 +6,7 @@ A simple web application that displays tourist spots in Kesennuma, Japan on an i
 
 ## Demo
 
-**Live demo: https://code4fukui.github.io/kesennuma-kanko/**
+**Live demo: https://github.com/code4fukui/kesennuma-kanko
 
 ## Features
 

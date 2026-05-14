@@ -4,7 +4,7 @@
 
 ## デモ
 
-**ライブデモ: https://code4fukui.github.io/kesennuma-kanko/**
+**ライブデモ: https://github.com/code4fukui/kesennuma-kanko
 
 ## 機能
 
